@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="h-100">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <link href="/stylesheets/style.css" rel="stylesheet" type="text/css" />
+  <link href="/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css" />
+  <title>
+    CEEP - <%= title %>
+  </title>
+</head>
+
+<body class="d-flex flex-column h-100">
+
+  <div class="header">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">CEEP - AUREO FILHO</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+        aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExample04">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/biblioteca/pesquisar">Pesquisar Livro</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Gerenciar</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/biblioteca/gerenciar/novo">Novo Livro</a>
+              <a class="dropdown-item" href="/biblioteca/gerenciar/listar">Listar Livros</a>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+    </nav>
+  </div>
